@@ -143,7 +143,7 @@ namespace SimpleExpressionParser.Tests
             var parsed = ExpressionParser.Parse(expression);
 
             parsed.Component(0, c => c
-                .ShouldHave(childCountOf: null, tokenOf: "test", typeOf: NodeType.Function));
+                .ShouldHave(childCountOf: 1, tokenOf: "test", typeOf: NodeType.Function));
         }
 
         [TestMethod]

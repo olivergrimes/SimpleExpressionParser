@@ -6,7 +6,7 @@ Fast, simple netstandard2.0 numeric expression parser.  Parses expressions into 
 
 ### Supported Syntax
 
-- **Numeric constants:** `1+1`
+- **Numeric constants (with decimals):** `1, 1.1`
 - **Common numeric operators:** `+, -, *, /, %`
 - **Unary negative:** `-`
 - **Precedence:** `2+2*2`

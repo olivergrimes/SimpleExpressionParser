@@ -2,7 +2,7 @@
 
 Fast, simple netstandard2.0 numeric expression parser.  Parses expressions into syntax trees for further processing.  
 
-### Features
+### Supported Syntax
 
 - **Numeric constants:** `1+1 =2`
 - **Common numeric operators:** `+, -, *, /, %`
